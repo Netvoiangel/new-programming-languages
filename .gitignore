@@ -1,4 +1,74 @@
 # Video scripts (do not commit)
 VIDEO_SCRIPT_RU.md
 
+# macOS / Finder
+.DS_Store
+
+# Screen recordings / media (keep repo code+md only)
+*.mov
+*.mp4
+*.mkv
+*.webm
+
+# Generic build outputs / executables
+*.exe
+*.out
+*.app
+*.dSYM/
+Main
+main
+mainc
+tcp-echo-single
+
+# Logs / dumps
+*.log
+*.dump
+erl_crash.dump
+
+# Erlang / Elixir
+*.beam
+*.ez
+
+# Rust
+target/
+**/*.rlib
+**/*.rmeta
+
+# Haskell
+dist/
+dist-newstyle/
+.stack-work/
+**/*.hi
+**/*.o
+
+# OCaml
+_build/
+**/*.cmi
+**/*.cmo
+**/*.cmx
+**/*.cmxa
+**/*.cmxs
+**/*.a
+**/*.o
+
+# Scala / Scala CLI / Metals / Bloop / BSP
+.scala-build/
+.bsp/
+.metals/
+target/
+
+# D / dub
+.dub/
+dub.selections.json
+**/*.obj
+**/*.lib
+
+# Swift (SwiftPM)
+.build/
+
+# Editors
+.idea/
+.vscode/
+
+Install.md
 
